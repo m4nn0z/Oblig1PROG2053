@@ -1,0 +1,19 @@
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5%;
+    gap: 5vh;
+    padding: 5%;
+}
+
+#posts div {
+    background-color: lightgrey;
+    padding: 2%;
+    border-radius: 1em;
+    margin: auto;
+    width: 25%;
+}
+
+#posts h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+/* Shared style for all the pages, including header and footer */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Oblig1/Fonts/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Oblig1/Fonts/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url(/Oblig1/Fonts/Roboto-Italic.ttf) format("truetype");
+}
+
+body {
+    margin: auto;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+b {
+    font-weight: bold;
+}
+
+header {
+    background-color: #1f2936;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 1%;
+}
+
+footer {
+    color: white;
+    background-color: #1f2936;
+    text-align: center;
+    padding: 2% 0;
+    margin-top: 5%;
+}

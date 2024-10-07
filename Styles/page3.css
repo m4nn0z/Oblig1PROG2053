@@ -1,0 +1,19 @@
+#weather {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin-top: 5%;
+}
+
+.weatherBox {
+    background-color: lightgrey;
+    padding: 2% 5%;
+    border-radius: 1em;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#posts h2 {
+    font-weight: bold;
+}
